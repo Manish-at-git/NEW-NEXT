@@ -1,0 +1,126 @@
+.NavbarMain {
+  background-color: #1f1f1f;
+}
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+
+.Logo {
+  padding: 0.4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavIcons {
+  opacity: 0.8;
+  padding: 0 5px;
+}
+
+.Menu {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(240, 240, 240);
+  padding: 0.4rem 1rem;
+  margin: 0 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Search {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-grow: 1;
+  margin: 0 1rem;
+  position: relative;
+  background: white;
+  border-radius: 5px;
+}
+
+.Search input {
+  border: 1px solid white;
+  background: #fff;
+  border-radius: 3px;
+  flex-grow: 1;
+  max-width: 750px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  /* height: 30px; */
+}
+
+.SearchInput:focus {
+  outline: none;
+  border: 1px solid white;
+  /* background: #fff; */
+  border-radius: 3px;
+  flex-grow: 1;
+  max-width: 750px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.VerticleLine {
+  border-right: 2px solid grey;
+  width: 1px;
+  height: 1.8rem;
+}
+
+.Watchlist {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(240, 240, 240);
+  padding: 0.4rem 1rem;
+  margin: 0 2px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.SignIn {
+  background-color: #1f1f1f;
+  border: 1px solid transparent;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(240, 240, 240);
+  padding: 0.4rem 1rem;
+  margin: 0 2px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.Lang {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgb(240, 240, 240);
+  padding: 0.4rem 1rem;
+  margin: 0 2px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.Menu:hover,
+.Watchlist:hover,
+.SignIn:hover,
+.Lang:hover {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  cursor: pointer;
+}
+
+.iconss {
+  cursor: pointer;
+  color: "grey";
+  background-color: "#fff";
+  padding: "10px";
+  border-radius: "3px";
+  margin-left: "2px";
+  padding: 10px;
+}

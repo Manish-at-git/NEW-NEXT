@@ -1,0 +1,50 @@
+.MovieListSideBar {
+  border-left: 3px solid rgb(128, 128, 128);
+  min-width: 30%;
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #ececec;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.categoryList:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SidebarHeader h5 {
+  padding: 15px 0;
+}
+
+.Bold {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.SidebarCheck label {
+  padding: 0 10px;
+  font-size: 0.9rem;
+}
+
+.Category small {
+  display: block;
+  color: #136cb2;
+}
+
+.MovieListSideBar {
+  font-family: Verdana, Arial, sans-serif;
+  background-color: #ececec;
+}
+
+.Hr {
+  margin: 2px;
+}
+
+.Category h6 {
+  padding: 10px 0;
+  color: #333333;
+}
+
+.TableImage {
+  width: "50px";
+}

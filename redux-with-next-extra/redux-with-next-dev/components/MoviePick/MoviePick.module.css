@@ -1,0 +1,30 @@
+.MoviePick {
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  /* height: 100vh; */
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  padding: 30px 20px;
+  border: 1px solid white;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: white;
+}

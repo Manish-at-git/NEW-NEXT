@@ -1,0 +1,49 @@
+.LoginMain {
+  /* padding: 10px 20px; */
+  background-color: #000;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  /* height: 100vh; */
+}
+
+.LoginChild {
+  padding: 10px;
+}
+
+.LoginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginIcon {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.SignInToWatchlist {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.SaveShowsAndMovies {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.SignInToIMDb {
+  text-decoration: none;
+  color: #000;
+  background-color: #f5c518;
+  padding: 6px 30px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.SignInToIMDb:hover {
+  color: rgb(44, 44, 44);
+}

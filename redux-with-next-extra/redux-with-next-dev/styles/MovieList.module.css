@@ -1,0 +1,136 @@
+.MovieList {
+  background-color: rgb(199, 199, 199);
+  color: #000;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.MovieListContainer {
+  background-color: rgb(199, 199, 199);
+  color: #000;
+  height: auto;
+  padding: 0 150px;
+}
+
+.Hr {
+  margin: 2px;
+}
+
+.MovieListMain {
+  display: flex;
+}
+
+.MovieListHeaderpage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MovieListHead h5 {
+  color: #424242;
+  font-weight: normal;
+}
+
+.Showing {
+  font-family: Verdana, sans-serif;
+  font-size: 0.8em;
+}
+
+.YourRating {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.MovieListPage {
+  background-color: #f8f8f8;
+  min-width: 70%;
+}
+
+.MovieListPage {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.MovieListHeader {
+  color: #424242;
+  margin: 0;
+}
+
+.MovieListByline {
+  font-size: 12px;
+  color: #666;
+  /* margin: 3px 0 10px; */
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.Image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.MovieListLowerHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MovieListSort {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.MovieListSort label {
+  padding: 0 10px;
+}
+
+.MovieListList {
+  padding: 5px 0;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.MovieListList small {
+  color: rgb(90, 90, 90);
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+
+.BlueName {
+  color: #136cb2;
+}
+
+.Table {
+  width: 100%;
+}
+
+.tr {
+  border: 1px solid white;
+}
+
+.tr:nth-child(even) {
+  background-color: #f6f6f5;
+  margin: 1px 0;
+  border: #fff 1px solid;
+}
+
+.th {
+  color: rgb(90, 90, 90);
+  width: "10%";
+  font-size: "0.9rem";
+}
+
+.MovieListLink {
+  text-decoration: none;
+  /* color: rgb(216, 169, 169) */
+}
+
+.MovieListLink:hover {
+  text-decoration: underline;
+}
+
+.FontSize {
+  font-size: "0.8rem";
+}
+
+.TableImage {
+  width: "50px";
+}

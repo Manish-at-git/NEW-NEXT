@@ -1,0 +1,28 @@
+.NavLinks {
+  padding: 30px 120px;
+  position: "absolute";
+  top: 0;
+  text-align: center;
+  transition: 5s ease;
+  /* height: 100vh; */
+}
+
+.NavLinkLogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LinkCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.swiper-button-next {
+  color: white;
+}
+.CloseButton:hover {
+  cursor: pointer;
+}

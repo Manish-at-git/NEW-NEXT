@@ -1,0 +1,14 @@
+.GridMain {
+  background-color: #000;
+  color: #fff;
+}
+.GridCard {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.GridHeading {
+  font-size: 48px;
+  padding: 30px 20px 0px;
+  font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,72 @@
+.MoviePickHeading {
+  margin-bottom: 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.WhatToWatch {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WhatToWatch h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #f5c518;
+  margin: 0;
+  padding: 30px 0px;
+}
+
+.faChevronRight {
+  padding: 0 8px;
+  color: #fff;
+}
+
+.faChevronRightRecommend {
+  padding: 0 8px;
+  color: #5799ef;
+}
+
+.NavLink {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.NavLink:hover {
+  color: rgb(202, 202, 202);
+}
+.MoviePickHeadingSmall {
+  opacity: 0.7;
+}
+
+.MoviePick-Cards {
+  /* padding: 0 50px; */
+}
+
+.Watch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Recommend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-weight: 600;
+  color: #5799ef;
+  letter-spacing: 1px;
+}
+
+.Recommend:hover {
+  cursor: pointer;
+}
+
+.MoviePickHeadingLarge {
+  padding-left: 10px;
+  border-left: 4px solid #f5c518;
+  display: flex;
+  align-items: center;
+}

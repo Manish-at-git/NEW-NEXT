@@ -1,0 +1,310 @@
+.SingleMovieMain1 {
+  background-color: #000;
+  color: #fff;
+}
+.SingleMovieMain {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.SingleMovieHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SingleMovieHeadingTitle {
+  display: flex;
+  align-items: center;
+}
+
+.Block {
+  display: block;
+  font-size: 12px;
+}
+.BoldLarge {
+  font-size: 1.3em;
+}
+
+.Heading {
+  display: inline-block;
+  padding: 20px;
+}
+
+.Rating {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.SingleMoviePoster {
+  height: 400px;
+  width: 260px;
+  position: relative;
+}
+
+.SingleMoviePoster Image {
+}
+
+.SingleMovieCard {
+  /* border: 1px solid red; */
+
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+
+.CardElement {
+  /* border: 1px solid red; */
+  margin: 0 2px;
+  /* height: 400px; */
+  /* display: inline-block; */
+  /* border: 1px solid red; */
+}
+
+.SingleMovieTrailer {
+  margin: 0 5px;
+  flex: 1;
+  object-fit: cover;
+  /* border: 1px solid red; */
+}
+.SingleMovieImages {
+  background-color: rgb(34, 34, 34);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 2px;
+}
+
+.Icons {
+  padding: 10px;
+}
+
+.SingleMovieMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 13%;
+  text-align: center;
+}
+
+.SingleMovieInfo {
+  display: inline-block;
+}
+
+.CategoriesAction,
+.CategoriesAdventure,
+.CategoriesComedy {
+  border: 2px solid grey;
+  padding: 2px 8px 4px;
+  border-radius: 17px;
+  margin: 0 5px;
+}
+
+.Description {
+  /* border: 1px solid red; */
+  margin-top: 5px;
+  padding: 15px 0;
+}
+
+.DescriptionLine {
+  border: 1px solid grey;
+  margin: 0;
+}
+
+.Director {
+  padding: 15px 0;
+}
+
+.DirectorBold {
+  font-weight: bold;
+}
+
+.DirectorBlue {
+  color: #5799ef;
+}
+
+.SingleMovieMain2 {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  width: 60%;
+}
+
+.Cast {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.cast-img {
+  /* border: 1px solid red; */
+  /* padding-top: 10px; */
+}
+
+.CastName {
+  font-weight: bold;
+
+  /* display: block; */
+}
+
+.CastDesc {
+  /* display: block; */
+  color: rgb(104, 104, 104);
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.CastItem {
+  height: 100px;
+
+  /* border: 1px solid blue; */
+}
+
+.Inline {
+  display: inline-block;
+}
+
+/* .CastItem img {
+  width: "100px";
+  height: "100px";
+  object-fit: "cover";
+  border-radius: "50%";
+  margin-right: "10px";
+} */
+
+.GridCast {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 30px 0;
+}
+
+.Info {
+  position: relative;
+}
+
+.WatchlistBookmark {
+  width: "40%";
+  position: absolute;
+  top: 0;
+  right: -50px;
+}
+
+.Watchlist,
+.SeeShowtime {
+  font-size: 14px;
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.Watchlist {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #313131;
+  font-weight: bold;
+}
+
+.Watchlist:hover {
+  color: rgb(190, 190, 190);
+}
+
+.SeeShowtime {
+  font-weight: bold;
+  background-color: #f5c518;
+  color: #000;
+}
+.BookmarkDown {
+  /* border: 1px solid red; */
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.BookmarkDown span {
+  margin: 0 5px;
+  color: #5799ef;
+}
+
+.embed-responsive {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* iframe {
+  flex: 1;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+} */
+
+.mainbar {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.swiper-pagination {
+  display: none;
+}
+
+.SliderImage {
+  margin: 0;
+  height: 200px;
+  /* border: 1px solid grey; */
+  /* width: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SliderImage Image {
+  height: 175px;
+  width: 175px;
+  object-fit: cover;
+}
+
+.SingleSidebar {
+  width: 30%;
+  /* padding-left: 100px; */
+}
+
+.SingleSidebarBox {
+  margin-top: 10px;
+  border: 1px solid rgb(226, 226, 226);
+  display: flex;
+  border-radius: 5px;
+}
+.WatchedSeries small {
+  padding: 10px 15px;
+}
+
+.WatchedSeries {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .CreatedYear {
+ 
+  object-fit: cover;
+} */
+
+.WatchedSeriesSpan {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.CreatedYearSpan {
+  color: #000;
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+  font-weight: 500;
+}

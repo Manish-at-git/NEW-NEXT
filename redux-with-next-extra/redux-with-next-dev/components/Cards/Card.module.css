@@ -1,0 +1,111 @@
+.AppCard {
+  width: 200px;
+  margin-left: 25px;
+}
+
+.Cards {
+  border: 1px solid transparent;
+  background-color: #1a1a1a !important;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.CardBody {
+  padding: 8px;
+}
+.CardImg {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 0px;
+  border: none;
+}
+
+.IconsRating {
+  padding-right: 5px;
+  color: yellow;
+}
+
+.WatchOptions {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #2c2c2c;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  color: #5594e7;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.Title {
+  font-size: 1rem;
+  height: 20px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.Rating {
+  padding: 8px;
+  margin: 0;
+  /* opacity: 0.8; */
+}
+.iconsRatingThin {
+  color: #5594e7;
+}
+
+.iconsRatingThin:hover {
+  color: #fff;
+}
+
+.icons {
+  /* padding: 10px; */
+}
+
+.Thin {
+  padding: 10px 40px;
+}
+
+.thin:hover {
+  background-color: rgb(71, 71, 71);
+  color: white;
+}
+
+.Trailer {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.TrailerTextIcon {
+  color: rgb(170, 170, 170);
+  padding: 0 10px;
+}
+
+.addBookmark {
+  background-color: transparent;
+}
+
+.addBookmarkSpan {
+  background-color: #1a1a1a;
+  padding: 10px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.addBookmarkSpan:hover {
+  background-color: #4e4e4e;
+}
+
+.addBookmarkSpan:hover {
+  background-color: #4e4e4e;
+}
